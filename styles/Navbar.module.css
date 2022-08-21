@@ -1,0 +1,53 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1rem 5rem;
+}
+
+.logo {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.5rem;
+	cursor: pointer;
+}
+
+.menu {
+	flex: 1;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	list-style: none;
+}
+
+.menu > li:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.rightSide {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cart {
+	position: relative;
+}
+
+.badge {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: red;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: grid;
+	place-items: center;
+	font-weight: 600;
+	color: white;
+}
